@@ -1,4 +1,9 @@
 package com.franclin.commandes.entity;
 
-public class Role {
+public enum Role {
+
+    ADMIN,
+    CLIENT,
+
 }
+
