@@ -1,4 +1,8 @@
 package com.franclin.commandes.entity;
 
-public class StatutCommande {
+public enum StatutCommande {
+    EN_ATTENTE,
+    VALIDEE,
+    EXPEDIEE,
+    ANNULEE
 }
